@@ -1,0 +1,289 @@
+@keyframes parag-action {
+    0% {
+        content: "|";
+    }
+
+    2% {
+        content: "D";
+    }
+
+    4% {
+        content: "De|";
+    }
+
+    8% {
+        content: "Des";
+
+    }
+
+    10% {
+        content: "Desi|";
+
+
+    }
+
+    12% {
+        content: "Desig";
+
+    }
+
+    14% {
+        content: "Design|";
+
+    }
+
+    16% {
+        content: "Designe";
+
+    }
+
+    18% {
+        content: "Designer|";
+
+    }
+
+    20% {
+        content: "Designer";
+
+    }
+
+    22% {
+        content: "Designe|";
+
+    }
+
+    24% {
+        content: "Design";
+
+    }
+
+    26% {
+        content: "Desig|";
+
+    }
+
+    28% {
+        content: "Desi";
+
+    }
+
+    30% {
+        content: "Des|";
+
+    }
+
+    32% {
+        content: "De";
+
+    }
+
+    34% {
+        content: "D|";
+
+    }
+
+    36% {
+        content: "";
+
+    }
+
+    38% {
+        content: "|";
+
+    }
+    40% {
+        content: "D";
+
+    }
+    42% {
+        content: "De|";
+
+    }
+    44% {
+        content: "Dev";
+
+    }
+    46% {
+        content: "Deve|";
+
+    }
+    48% {
+        content: "Devel";
+
+    }
+    50% {
+        content: "Develo|";
+
+    }
+    52% {
+        content: "Develop";
+
+    }
+    54% {
+        content: "Develope";
+
+    }
+    56% {
+        content: "Developer|";
+
+    }
+    58% {
+        content: "Developer";
+       
+
+    }
+    60% {
+        content: "Develope|";
+       
+
+    }
+    62% {
+        content: "Develop";
+       
+
+    }
+    64% {
+        content: "Develo|";
+       
+
+    }
+    66% {
+        content: "Devel";
+       
+
+    }
+    68% {
+        content: "Deve|";
+       
+
+    }
+    70% {
+        content: "Dev";
+       
+
+    }
+    72% {
+        content: "De|";
+       
+
+    }
+    74% {
+        content: "D";
+       
+
+    }
+    76% {
+        content: "|";
+       
+
+    }
+    78% {
+        content: "";
+       
+
+    }
+    80% {
+        content: "L|";
+       
+
+    }
+    82% {
+        content: "La";
+       
+
+    }
+    84% {
+        content: "Lar|";
+       
+
+    }
+    86% {
+        content: "Larr";
+       
+
+    }
+    88% {
+        content: "Larry |";
+       
+
+    }
+    90%{
+        content: "Larry D";
+    }
+    
+    92% {
+        content: "Larry Da|";
+
+    }
+    
+    94% {
+        content: "Larry Dani";
+
+    }
+    96% {
+        content: "Larry Daniel|";
+
+    }
+    98% {
+        content: "Larry Daniels|";
+
+    }
+
+    100% {
+        content: "Larry Daniels";
+
+    }
+
+}
+
+@keyframes backGroundAnimation {
+    from{
+        background-size:100%  0%;
+        background-position: center center ;
+
+
+    }
+    to{
+        background-size:100% 100% ;
+        background-position: bottom ;
+
+    }
+    
+}
+@keyframes backGroundAnimationLayer {
+    from{
+        background-color: rgba(0, 0, 0, 0);
+
+    }
+    to{
+        background-color: rgba(0, 0, 0, 0.6);
+
+
+    }
+    
+}
+@keyframes progressmotion0 {
+    from{
+        width: 0px;
+    }
+    to{
+        width: 95%;
+    }
+}
+@keyframes progressmotion1 {
+    from{
+        width: 0px;
+    }
+    to{
+        width: 80%;
+    }
+}
+@keyframes progressmotion2 {
+    from{
+        width: 0px;
+    }
+    to{
+        width: 90%;
+    }
+}
+

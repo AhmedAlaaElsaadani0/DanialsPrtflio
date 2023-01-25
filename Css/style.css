@@ -1,0 +1,338 @@
+:root{
+    --primeryColor:white;
+    --secondaryColor:#343434;
+    --dumpColor:#748182;
+    --paragraphColor:#E9FFFF;
+    --speColor:#F4F4F4;
+    --sizeFont:12rem;
+
+
+}
+header nav li a {
+    font-family: 'amazing' ,'Courier New', Courier, monospace;
+    font-weight: 300;
+}
+
+#home{
+    font-family:'special', Courier, monospace;
+    color: var(--primeryColor);
+    background-color: var(--paragraphColor);
+    background-image: url(../Images/home/bg.jpg);
+    background-size:cover ;
+
+    background-repeat: no-repeat;
+    animation: 1s  backGroundAnimation;
+}
+.layer{
+    background-color: rgba(0, 0, 0, 0.6);
+    animation: 2s  backGroundAnimationLayer;
+
+
+}
+h1{
+    font-family:'amazing', 'Courier New', Courier, monospace;
+    font-size:calc( var(--sizeFont ) / 1.5);
+
+}
+h1 span{
+    opacity: 0.8;
+    font-size: calc(calc( var(--sizeFont) / 1.5) - 0.6rem) ;
+
+}
+h1::after{
+    content: "";
+    font-family:amazing ,'Courier New', Courier, monospace ;
+    animation: parag-action infinite  alternate 8s;
+}
+.layer h3 {
+    font-size: calc(var(--sizeFont) / 1.7);;
+    font-weight: 800;
+    margin-bottom: 10px
+}
+header .layer .icons .member {
+    background-color: var(--secondaryColor);
+    width: 25px;
+    height: 20px;
+    border-radius:50% ;
+
+}
+header nav ul li .speffect{
+    position: relative;
+}
+header nav ul li .speffect::after{
+    content: "";
+    height: 3px;
+    width: 80%;
+    background-color: var(--primeryColor);
+    position: absolute;
+    bottom: 0%;
+    transform: translate(-100%,-100%);
+
+}
+/* About style */
+.About h2{
+    font-family:'special', 'Courier New', Courier, monospace;
+    font-size: calc(var(--sizeFont) / 2);
+}
+.About .speffect span{
+    color: var(--dumpColor);
+    font-family:'special', 'Courier New', Courier, monospace;
+    font-weight: 400;
+
+
+}
+.About .speffect {
+    font-family:'amazing', 'Courier New', Courier, monospace;
+    font-weight: 400;
+
+
+}
+ 
+.About .progressStyle {
+    color: var(--primeryColor);
+    font-size: 20px;
+} 
+.About .progressStyle p {
+    padding: 0;
+    margin: 0;
+} 
+.About .barStyle.one{
+    animation: 1s progressmotion0;
+}
+.About .barStyle.two{
+    animation: 1s progressmotion1;
+}
+
+.About .barStyle.three{
+    animation: 1s progressmotion2;
+}
+
+
+ .About .buttBlack{
+    transition: all 1s;
+}
+.About .buttWhite{
+    transition: all 1s;
+    
+}
+.About .buttons .buttBlack:hover{
+    background-color: var(--primeryColor) !important;
+    color: var(--secondaryColor) !important;
+
+}
+.About .buttons .buttWhite:hover{
+    background-color: var(--secondaryColor ) !important;
+    color: var(--primeryColor) !important;
+
+}
+/* Services Section */
+.Services{
+    background-color: #F7F7F7;
+}
+.Services h2{
+    color: var(--secondaryColor);
+    font-size: calc(var(--sizeFont) / 2 ) ;   
+    font-family: 'special', 'Courier New', Courier, monospace;
+}
+.Services .container .row h5{
+    font-family: 'special','Courier New', Courier, monospace;
+    font-weight: bold;
+    font-size: calc( var(--sizeFont) / 3);
+
+}
+.Services .row .member {
+    width: 50px;
+    height: 50px;
+    font-size: calc(var(--sizeFont) / 3);
+    border-radius: 50%;
+    background-color:#F7F7F7;
+    color: var(--secondaryColor);
+    transition: 1s all;
+
+}
+.Services .container .row .col-lg-4:hover .member{
+    background-color: var(--secondaryColor);
+
+}
+.Services .container .col-lg-4:hover i{
+    color: var(--primeryColor) !important;
+
+}
+/* portflio section */
+.Portflio h2{
+    color: var(--secondaryColor);
+    font-size: calc(var(--sizeFont) / 2) ;   
+    font-family: 'special', 'Courier New', Courier, monospace;
+}
+.Portflio .buttons button{
+    font-weight: 700;
+    font-size: calc(var(--sizeFont) / 5.5);
+}
+.Portflio .buttons  button.speffect{
+    position: relative;
+}
+.Portflio .elem .layer{
+    background-color: var(--primeryColor);
+    overflow: hidden;
+    top: 100px;
+    bottom: 0px;
+    right: 5px;
+    left: 5px;
+    opacity: 0;
+    transition: all 1s;
+}
+.Portflio .elem .layer:hover{
+    background-color: var(--primeryColor);
+    top: 0px;
+    bottom: 0px;
+    right: 5px;
+    left: 5px;
+    opacity: 1;
+}
+.Portflio .elem .layer .member{
+    width: 30px;
+    height: 30px;
+    background-color: var(--primeryColor);
+    transition: all 1s;
+}
+
+.Portflio .elem .layer .member:hover{
+    background-color: var(--secondaryColor);
+    color: var(--primeryColor);
+}
+.Portflio .buttons .btn.speffect::after{
+    content: "";
+    height: 3px;
+    width: 60%;
+    background-color: var(--secondaryColor);
+    position: absolute;
+    bottom: 0%;
+    transform: translate(-100%,-100%);
+
+}
+ /* Testimonials section Style */
+.testimonials{
+    background-color: #F7F7F7;
+
+}
+.testimonials h2{
+    color: var(--secondaryColor);
+    font-size: calc(var(--sizeFont) / 2) ;   
+    font-family: 'special', 'Courier New', Courier, monospace;
+}
+.testimonials .numbers i{
+    font-size: calc(var(--sizeFont) / 2.7);
+}
+.testimonials .numbers p{
+    font-family:'special', 'Courier New', Courier, monospace;
+    font-size: calc(var(--sizeFont) / 2.7);
+} 
+
+/*  Blog section Style */
+.Blog{
+    background-color: #F7F7F7;
+
+}
+.Blog h2{
+    color: var(--secondaryColor);
+    font-size: calc(var(--sizeFont) / 2) ;   
+    font-family: 'special', 'Courier New', Courier, monospace;
+}
+
+.Blog .card img {
+    transition: 1s all;
+    
+}
+.Blog .card:hover img{
+    transform: scale(1.5,1.5);
+}
+.Blog .carousel-indicators button{
+    width: 30px;
+    height: 30px;
+    
+}
+
+/*  contact section Style */
+.contact{
+    background-color: var(--primeryColor);
+
+}
+.contact h2{
+    color: var(--secondaryColor);
+    font-size: calc(var(--sizeFont) / 2) ;   
+    font-family: 'special', 'Courier New', Courier, monospace;
+}
+.contact .container .row input ,.contact .container .row textarea {
+    background: var(--speColor) !important;
+}
+.contact .member .icon{
+    width: 70px;
+    height:70px  ;
+    background-color: var(--speColor);
+    transition: all 1s ;
+
+    
+
+}
+.contact .container i{
+    font-size: calc(var(--sizeFont) /   3.7);
+    transition: all 1s ;
+
+}
+
+.contact .container .icon:hover{
+    background-color: var(--secondaryColor);
+
+}
+.contact .container .icon:hover i{
+    color: var(--primeryColor) !important;
+
+}
+.contact .container p{
+    font-family:'special', 'Courier New', Courier, monospace;
+    font-size: calc(var(--sizeFont) / 5);
+}
+.contact .buttBlack{
+    transition: all 1s;
+}
+
+.contact .buttons .buttBlack:hover{
+    background-color: var(--primeryColor) !important;
+    color: var(--secondaryColor) !important;
+
+}
+
+/* the last section */
+footer p {
+    color: var(--dumpColor);
+}
+
+
+@font-face {
+    font-family: special;
+    src: url(../Fonts/montserrat-font/MontserratBlack-3zOvZ.ttf ) ;
+    src: url(../Fonts/montserrat-font/MontserratBold-DOWZd.ttf);
+}
+
+@font-face {
+    font-family: amazing;
+    src: url(../Fonts/poppins-font/PoppinsLight-l4Zw.otf);
+}
+@media (min-width : 
+0px) { 
+   :root{ --sizeFont:
+    2.5rem;  }
+ }
+
+
+@media (min-width: 
+350px) { 
+   :root{ --sizeFont:
+    4rem;  }
+ }
+
+@media (min-width: 768px) {   
+     :root{ --sizeFont:5.5rem;  }
+}
+
+@media (min-width: 992px) {      :root{ --sizeFont: 6.3rem;  }}
